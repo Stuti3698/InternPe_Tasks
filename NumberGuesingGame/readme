@@ -1,0 +1,11 @@
+Number Guessing Game
+
+Welcome to the Number Guessing Game! This simple Java-based game challenges players to guess a randomly generated number between 1 and 100. Upon launching the game, a random
+number is generated and displayed (for debugging purposes), and the player is prompted to enter their guess.
+
+The core of the game is a loop that continues to prompt the player for guesses until they correctly identify the random number. Each guess is compared to the random number, 
+and the player is informed if their guess is too high or too low. The game also keeps track of the number of attempts the player takes to guess the correct number.
+Once the player correctly guesses the number, the game congratulates the player, displays the total number of attempts taken, and ends.
+
+The game utilizes Java's `Random` class to generate the random number and `Scanner` class to read player input from the console. This project is a fun way to practice basic
+Java programming concepts such as loops, conditionals, and user input handling.
