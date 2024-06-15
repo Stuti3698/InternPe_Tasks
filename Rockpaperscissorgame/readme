@@ -1,0 +1,6 @@
+Welcome to the Rock, Paper, Scissors game developed in Java as part of my internship at Internpe! This project showcases my skills in Java programming and game development.
+
+Features
+Interactive Gameplay: Play Rock, Paper, Scissors against a randomized computer opponent.
+Score Tracking: Keeps track of wins, losses, and ties across multiple rounds.
+Simple Interface: User-friendly console-based interface for easy interaction.
