@@ -1,0 +1,34 @@
+CONNECT 4 DOTS GAME
+
+A simple Connect 4 game implemented in Java. Players take turns to drop their discs into a grid, and the
+first to connect four discs in a row, column, or diagonal wins.
+
+HOW TO PLAY
+1. Players are represented by 'R' (Red) and 'G' (Green).
+2. Players take turns choosing a column to drop their disc.
+3. The game ends when a player connects four discs or the board is full.
+
+Code Overview
+-> Class: CONNECT4
+- Attributes:
+  - `char[] players`: Player symbols ('R', 'G').
+  - `int width, height`: Dimensions of the grid.
+  - `char[][] grid`: Game board.
+  - `int lastCol, lastTop`: Track last move position.
+
+- Constructor:
+  - Initializes the grid with empty spaces ('.').
+
+- Methods:
+  - `toString()`: Represents the board as a string.
+  - `horizontal()`, `vertical()`, `slashDiagonal()`, `backslashDiagonal()`: Get string representations of the row, column, and diagonals.
+  - `contains(String str, String substring)`: Checks if a string contains a substring.
+  - `isWinningPlay()`: Checks if the last move was a winning play.
+  - `chooseAndDrop(char symbol, Scanner input)`: Prompts the user to choose a column and drops the disc.
+-> Main Method
+
+- Initializes a 6x7 board.
+- Alternates between players until the game is won or the board is full.
+
+ HOW TO RUN
+Compile and run the `CONNECT4` class. Players input the column number to drop their disc.
